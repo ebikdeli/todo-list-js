@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <main class="text-center text-light">
+        <div class="py-4">
+            <h1>Todo List</h1>
+            <!-- ********************* Search Box input ******************* -->
+            <div class="search-box m-auto my-4 col-lg-4 col-md-6 col-sm-10 col-10">
+                <input class="input-box" id="search-input" type="text" name="search" placeholder="search todos...">
+            </div>
+            <!-- ********************* List of Todos ********************** -->
+            <div class='todo-list'>
+                <div class="todo-object d-flex my-1 justify-content-between align-items-center  col-lg-4 col-md-6 col-sm-10 col-10">
+                    <div class="todo-text text-white col-lg-10 col-md-9 col-sm-10 col-9">
+                        <p>Coding in JS is good for us why the hell is that thing man you good?</p>
+                    </div>
+                    <div class="todo-delete col-lg-2 col-md-3 col-sm-2">
+                        <i class="fa fa-trash-o delete" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="todo-object d-flex my-1 justify-content-between align-items-center  col-lg-4 col-md-6 col-sm-10 col-10">
+                    <div class="todo-text text-light col-lg-10">
+                        <p>Coding in JS</p>
+                    </div>
+                    <div class="todo-delete col-lg-2 col-md-3 col-sm-2">
+                        <i class="fa fa-trash-o delete" style="font-size:24px"></i>
+                    </div>
+                </div>
+                <div class="todo-object d-flex my-1 justify-content-between align-items-center  col-lg-4 col-md-6 col-sm-10 col-10">
+                    <div class="todo-text col-lg-10">
+                        <p class="text-light">Javascript is not that good!!!!</p>
+                    </div>
+                    <div class="todo-delete col-lg-2 col-md-3 col-sm-2">
+                        <i class="fa fa-trash-o delete" style="font-size:24px"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ******************* Add new Todo *********************** -->
+            <div class="mt-5">
+                <h5 id="append-new-todo">Add new Todo...</h5>
+            </div>
+            <div class="search-box m-auto my-3 col-lg-4 col-md-6 col-sm-10 col-10">
+                <input class="input-box" id="new-todo" type="text" name="new-todo">
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+<script src="/script.js"></script>
+
+</html>

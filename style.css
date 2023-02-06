@@ -1,0 +1,49 @@
+/* in bootstrap:
+margin-auto: auto ==> m-auto
+margin-left: auto, margin-right: auto ==> mx-auto
+Read spacing in bootstrap. Docs:
+https://getbootstrap.com/docs/5.3/utilities/spacing/
+ */
+
+body{
+    background-color: rgb(51, 22, 97);
+}
+
+.input-box{
+    background-color: rgb(38, 17, 72);
+    color: rgb(188, 191, 194);
+    border: 0px;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.todo-list{
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 2em !important;
+}
+
+.todo-object{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(93, 66, 135);
+    padding: 10px 10px;
+}
+
+.todo-text > p{
+    margin: 0 !important;
+    font-size: 17px;
+    text-align: start;
+}
+
+.todo-delete{
+    /* align-self: center;
+    justify-self: right; */
+    margin-right: 0px;
+}
+
+#append-new-todo{
+    color: gainsboro;
+}
